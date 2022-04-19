@@ -1,0 +1,50 @@
+﻿@page
+@model Mangas_CR.Pages.ContactoModel
+@{
+}
+<!DOCTYPE html>
+<html 
+<head>
+    <title>formularios</title>
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <form>
+        <h1>formulario de inscripción</h1>
+        <label for="nombreusuario">Nombre completo</label>
+        <input type="text" name="nomusu" size="40" maxlength="15" placeholder="Digite nombre y apellido"><br>
+        <label for="emailusuario">correo electronico usuario</label>
+        <input type="email" name="emailusu">
+        <label>seleccione la cuidad</label>
+        <select>
+            <option></option>
+            <option>Alajuela </option>
+            <option>san jose </option>
+            <option>Guadalupe </option>
+            <option>Heredia </option>
+        </select>
+        <br>
+        <label>selecione el manga preferencia </label><br>
+
+        <input type="radio" name="genero">Naruto<br>
+        <input type="radio" name="genero">Kimetsu No Yaibs<br>
+        <input type="radio" name="genero">one piece<br>
+        <input type="radio" name="genero">bleach<br>
+        <input type="radio" name="genero">shingeki No Kyojin<br>
+
+        <label>Seleccione el genero</label><br>
+
+        <input type="radio" name="genero">femenino<br>
+        <input type="radio" name="genero">Masculino<br>
+        <input type="radio" name="genero">Otro<br>
+
+        <br>
+        <input type="submit" value="enviar">
+        <input type="submit" value="Cancelar">
+
+
+    </form>
+</body>
+</html>
+
